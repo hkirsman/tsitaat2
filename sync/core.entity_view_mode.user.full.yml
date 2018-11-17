@@ -1,0 +1,12 @@
+uuid: be25ee72-6b13-4a1e-99d2-d42589f4996c
+langcode: et
+status: false
+dependencies:
+  module:
+    - user
+_core:
+  default_config_hash: mQIF_foYjmnVSr9MpcD4CTaJE_FpO1AyDd_DskztGhM
+id: user.full
+label: Kasutajakonto
+targetEntityType: user
+cache: true

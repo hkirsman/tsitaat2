@@ -1,0 +1,12 @@
+uuid: fef02a7a-a73b-431b-96d4-eba097c4528d
+langcode: et
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: dJ0L2DNSj5q6XVZAGsuVDpJTh5UeYkIPwKrUOOpr8YI
+id: authenticated
+label: 'Autenditud kasutaja'
+weight: 1
+is_admin: false
+permissions:
+  - 'access content'

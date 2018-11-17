@@ -1,16 +1,26 @@
 <?php
 
 /**
- * Location of the site configuration files.
- */
-$config_directories['sync'] = '../sync';
-
-
-/**
  * @file
  * Main Drupal settings for Lando environment.
  */
 
+/**
+ * Location of the site configuration files.
+ */
+$config_directories['sync'] = '../sync';
+
+/**
+ * Which installation profile was used.
+ */
+$settings['install_profile'] = 'standard';
+
+/**
+ * Salt for one-time login links, cancel links, form tokens, etc.
+ */
+$settings['hash_salt'] = 'ZWXvdrSeGNAG2ekbVTRPXAPZKOm8DuAOEDWmw-NjSbft6rLbqvu1vGTWEFjar0XmncFs44jU5g';
+
+// Configuration for Lando.
 if (getenv('LANDO_INFO') !== FALSE) {
   $lando_info = json_decode(getenv('LANDO_INFO'), TRUE);
   $databases['default']['default'] = [

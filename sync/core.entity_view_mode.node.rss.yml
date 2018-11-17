@@ -1,0 +1,12 @@
+uuid: 79ff062c-35bc-459e-8a9d-f8afbd734330
+langcode: et
+status: false
+dependencies:
+  module:
+    - node
+_core:
+  default_config_hash: vlYzr-rp2f9NMp-Qlr4sFjlqRq-90mco5-afLNGwCrU
+id: node.rss
+label: 'RSS vood'
+targetEntityType: node
+cache: true

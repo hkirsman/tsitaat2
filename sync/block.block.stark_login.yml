@@ -1,0 +1,22 @@
+uuid: c714b9a3-8f88-4d1e-9d59-9c3c2b9a518d
+langcode: et
+status: true
+dependencies:
+  module:
+    - user
+  theme:
+    - stark
+_core:
+  default_config_hash: 4QlSnWBcxxKMIFRM8sbu_MjSkcp3NjGgnVrc-lynQHI
+id: stark_login
+theme: stark
+region: sidebar_first
+weight: 0
+provider: null
+plugin: user_login_block
+settings:
+  id: user_login_block
+  label: Sisenemine
+  provider: user
+  label_display: visible
+visibility: {  }

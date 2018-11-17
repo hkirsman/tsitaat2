@@ -1,0 +1,20 @@
+uuid: d2e7d696-1831-4fb9-958c-25ba2a000665
+langcode: et
+status: true
+dependencies:
+  theme:
+    - bartik
+_core:
+  default_config_hash: PffmQ-ABSz5tFjWmVsR7NesunDnEivvopnJnBjl8KNE
+id: bartik_local_actions
+theme: bartik
+region: content
+weight: -10
+provider: null
+plugin: local_actions_block
+settings:
+  id: local_actions_block
+  label: 'Peamised administraatori toimingud'
+  provider: core
+  label_display: '0'
+visibility: {  }

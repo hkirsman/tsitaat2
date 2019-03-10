@@ -1,4 +1,4 @@
-name: tsitaat.com
+name: tsitaat2
 recipe: drupal8
 config:
   webroot: web

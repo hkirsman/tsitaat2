@@ -1,38 +1,34 @@
 name: tsitaat2
+
 recipe: drupal8
+
 config:
   webroot: web
   php: '7.2'
-  database: mysql:5.6
-  drush: global:8.1.17
+  drush: 9.6.2
+
 proxy:
   appserver:
     - local.tsitaat.com
+
 services:
   appserver:
-    portforward: 8080
-    overrides:
-      services:
-        ports: ['8080:80']
-        volumes:
-          - $LANDO_APP_ROOT_BIND/.lando/composer.sh:/helpers/composer.sh
-    #xdebug: true
+    xdebug: true
     run:
       - "echo 'Running composer install to initialize your project.'"
-      - "cd $LANDO_MOUNT && composer install"
-    run_as_root:
-      # Speed up site by removing XDebug totally according to xdebug variable in this file.
-      - "sh /app/.lando/xdebug.sh"
-
+      - "cd /app && composer install"
+  database:
+    type: mariadb:10.2
   # Create a node instance for theming.
   # @todo: This seemed big image. Should check for more light-weight versions from the official docker node page.
   node:
-    type: node:8.9
+    type: node:8.14
     globals:
       gulp-cli: "latest"
     run-as-root:
       - "echo fs.inotify.max_user_watches=524288 | sudo tee -a /etc/sysctl.conf && sudo sysctl -p"
       - npm install
+
 events:
   post-db-import:
     - appserver: /app/.lando/post_db_import.sh
@@ -45,13 +41,6 @@ tooling:
     service: appserver
     cmd:
       - "drush --root=/app/web --uri=http://local.tsitaat.com/"
-  # Fix memory limit issues for composer by using composer2 command instead.
-  # I wasn't able to use composer here to override the original command.
-  composer2:
-    service: appserver
-    description: Run composer commands without running into php errors!
-    cmd:
-      - /helpers/composer.sh
   npm:
     service: node
   gulp:

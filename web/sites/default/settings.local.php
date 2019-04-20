@@ -38,4 +38,6 @@ if (getenv('LANDO_INFO') !== FALSE) {
 
   // On some occasions local setup can die because of memory issues.
   ini_set('memory_limit','2G');
+
+  $conf['skip_permissions_hardening'] = TRUE;
 }

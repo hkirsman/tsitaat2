@@ -32,6 +32,15 @@ if (getenv('LANDO_INFO') !== FALSE) {
     'port' => $lando_info['database']['internal_connection']['port'],
   ];
 
+  $databases['migrate']['default'] = array (
+    'database'  => 'drupal7',
+    'username'  => 'root',
+    'password'  => '',
+    'host' => $lando_info['database']['internal_connection']['host'],
+    'port' => $lando_info['database']['internal_connection']['port'],
+    'driver'    => 'mysql',
+  );
+
   // Disable css/js aggregation.
   $config['system.performance']['css']['preprocess'] = FALSE;
   $config['system.performance']['js']['preprocess'] = FALSE;

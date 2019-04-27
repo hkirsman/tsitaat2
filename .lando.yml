@@ -13,7 +13,7 @@ proxy:
 
 services:
   appserver:
-    xdebug: true
+    xdebug: false
     run:
       - "echo 'Running composer install to initialize your project.'"
       - "cd /app && composer install"

@@ -1,5 +1,5 @@
-uuid: c810ff02-f881-4c0e-8e56-9355683d96be
-langcode: et
+uuid: 4eef7736-3b27-4c85-b0f2-defc62dbed8e
+langcode: en
 status: false
 dependencies:
   module:
@@ -7,6 +7,6 @@ dependencies:
 _core:
   default_config_hash: ElrtInxGjZd7GaapJ5O9n-ugi2hG2IxFivtgn0tHOsk
 id: node.full
-label: 'Kogu sisu'
+label: 'Full content'
 targetEntityType: node
 cache: true

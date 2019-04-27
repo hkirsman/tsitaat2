@@ -1,5 +1,5 @@
-uuid: 3437df59-2d11-4040-9c3b-a82cd4d5779a
-langcode: et
+uuid: 89687067-39f2-47d4-a6db-e2a2755bbff7
+langcode: en
 status: true
 dependencies:
   config:
@@ -9,7 +9,7 @@ dependencies:
   theme:
     - bartik
 _core:
-  default_config_hash: xCOijLdB1-UgXxQ9a0D1_pd8vxNEhfMnxXZc8jYhHjs
+  default_config_hash: NeHSoqm4XFqA7_0bDmR429ZZQt3LRbZMNRJTMsFyOfI
 id: bartik_tools
 theme: bartik
 region: sidebar_first
@@ -18,7 +18,7 @@ provider: null
 plugin: 'system_menu_block:tools'
 settings:
   id: 'system_menu_block:tools'
-  label: Tööriistad
+  label: Tools
   provider: system
   label_display: visible
   level: 1

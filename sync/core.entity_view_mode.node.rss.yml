@@ -1,5 +1,5 @@
-uuid: 79ff062c-35bc-459e-8a9d-f8afbd734330
-langcode: et
+uuid: 9c018fbd-427c-4acb-9a52-9a365cce8dc6
+langcode: en
 status: false
 dependencies:
   module:
@@ -7,6 +7,6 @@ dependencies:
 _core:
   default_config_hash: vlYzr-rp2f9NMp-Qlr4sFjlqRq-90mco5-afLNGwCrU
 id: node.rss
-label: 'RSS vood'
+label: RSS
 targetEntityType: node
 cache: true

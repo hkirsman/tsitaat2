@@ -1,11 +1,11 @@
-uuid: e1063419-c6aa-4468-bb58-854c4175c86c
-langcode: et
+uuid: c209c421-cc80-4a49-9e89-53ba5b99dc94
+langcode: en
 status: true
 dependencies:
   theme:
     - seven
 _core:
-  default_config_hash: PffmQ-ABSz5tFjWmVsR7NesunDnEivvopnJnBjl8KNE
+  default_config_hash: HHryZVJbeKi9WnuBGC8FOhBZmBnk2G1H6KxFuy-rC9A
 id: seven_local_actions
 theme: seven
 region: content
@@ -14,7 +14,7 @@ provider: null
 plugin: local_actions_block
 settings:
   id: local_actions_block
-  label: 'Peamised administraatori toimingud'
+  label: 'Primary admin actions'
   provider: core
   label_display: '0'
 visibility: {  }

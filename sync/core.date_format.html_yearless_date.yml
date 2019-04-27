@@ -1,10 +1,10 @@
-uuid: 257a8b21-b775-43b0-adeb-09e24e677a61
-langcode: et
+uuid: e6ea5f1b-1ce7-4534-90f3-31dc3f121da9
+langcode: en
 status: true
 dependencies: {  }
 _core:
   default_config_hash: 5VpawMrKPEPCkoO4YpPa0TDFO2dgiIHfTziJtwlmUxc
 id: html_yearless_date
-label: 'HTML Ilma aastata kuupäev'
+label: 'HTML Yearless date'
 locked: true
 pattern: m-d

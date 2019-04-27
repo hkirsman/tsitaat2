@@ -1,10 +1,10 @@
-uuid: cb5efe00-fdb3-43f1-8d2d-6972a53e083d
-langcode: et
+uuid: a83e3e71-62e6-4eb7-805a-2ba6a838fc2d
+langcode: en
 status: true
 dependencies: {  }
 _core:
   default_config_hash: NIKBt6kw_uPhNI0qtR2DnRf7mSOgAQdx7Q94SKMjXbQ
-name: Lihttekst
+name: 'Plain text'
 format: plain_text
 weight: 10
 filters:

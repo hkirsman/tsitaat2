@@ -1,10 +1,10 @@
-uuid: 56b2f7d1-fc85-49a9-8e94-af52534e344d
-langcode: et
+uuid: 1c167bc1-8529-4842-956b-bf9c4fcdf3bd
+langcode: en
 status: true
 dependencies: {  }
 _core:
   default_config_hash: Q2Ra3jfoIVk0f3SjxJX61byRQFVBAbpzYDQOiY-kno8
 id: main
-label: Põhinavigatsioon
+label: 'Main navigation'
 description: 'Site section links'
 locked: true

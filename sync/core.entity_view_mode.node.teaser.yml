@@ -1,5 +1,5 @@
-uuid: 7cb5b526-66b0-4c34-87c6-18f22838e74e
-langcode: et
+uuid: d2170ada-be5a-4fee-b20f-5f72afa21bba
+langcode: en
 status: true
 dependencies:
   module:
@@ -7,6 +7,6 @@ dependencies:
 _core:
   default_config_hash: Mz9qWr1kUYK0mjRAGDsr5XS6PvtZ24en_7ndt-pyWe4
 id: node.teaser
-label: Juhtlõik
+label: Teaser
 targetEntityType: node
 cache: true

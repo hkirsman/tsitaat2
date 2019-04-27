@@ -1,5 +1,5 @@
-uuid: e96bba57-1f2e-4148-a03c-b35e2738bfe3
-langcode: et
+uuid: 28d3c1bb-a296-4506-9e37-0bf94b1e4866
+langcode: en
 status: true
 dependencies:
   module:
@@ -7,7 +7,7 @@ dependencies:
   theme:
     - bartik
 _core:
-  default_config_hash: fRKXNB91UxDvEMkzCR8ZBsawfC6Fqbme2gtobei3gu4
+  default_config_hash: NDwadleLD3YVSbDUaakxyYZyINYtkFtOVGShfq4kWy8
 id: bartik_branding
 theme: bartik
 region: header
@@ -16,7 +16,7 @@ provider: null
 plugin: system_branding_block
 settings:
   id: system_branding_block
-  label: 'Saidi bränding'
+  label: 'Site branding'
   provider: system
   label_display: '0'
   use_site_logo: true

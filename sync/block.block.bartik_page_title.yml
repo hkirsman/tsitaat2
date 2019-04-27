@@ -1,20 +1,20 @@
-uuid: 12e0a968-7bd7-48d3-88c3-1af0f54d765a
-langcode: et
+uuid: 4f1d777f-ccd2-4d71-94cb-fe333cfad381
+langcode: en
 status: true
 dependencies:
   theme:
     - bartik
 _core:
-  default_config_hash: 8yptDf6WrXxeyevUz4nP5vfr7BtxQqCBMninhV2IJ1g
+  default_config_hash: 7rR9chwXvdM2H8OYMAYx9Zj3GGlPMrZp_M3ZA4thYTk
 id: bartik_page_title
 theme: bartik
 region: content
-weight: -30
+weight: -50
 provider: null
 plugin: page_title_block
 settings:
   id: page_title_block
-  label: 'Lehe pealkiri'
+  label: 'Page title'
   provider: core
   label_display: '0'
 visibility: {  }

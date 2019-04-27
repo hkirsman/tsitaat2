@@ -1,20 +1,20 @@
-uuid: dfcf4920-9d04-4539-8f50-c83605674742
-langcode: et
+uuid: d6ccc7ec-3cee-48bb-af93-996cf2797097
+langcode: en
 status: true
 dependencies:
   theme:
     - seven
 _core:
-  default_config_hash: 8yptDf6WrXxeyevUz4nP5vfr7BtxQqCBMninhV2IJ1g
+  default_config_hash: ZSpc3IoSaLd0PkB02nxjVPBMztIdsTdHek9SiGaqZ_c
 id: seven_page_title
 theme: seven
-region: content
+region: header
 weight: -30
 provider: null
 plugin: page_title_block
 settings:
   id: page_title_block
-  label: 'Lehe pealkiri'
+  label: 'Page title'
   provider: core
   label_display: '0'
 visibility: {  }

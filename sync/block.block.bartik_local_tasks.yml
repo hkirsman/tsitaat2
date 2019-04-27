@@ -1,20 +1,20 @@
-uuid: f1e7f0d3-5bac-4083-a5f2-c29c062325ca
-langcode: et
+uuid: 01776071-91bc-495b-bc83-97d8e0585b5c
+langcode: en
 status: true
 dependencies:
   theme:
     - bartik
 _core:
-  default_config_hash: c-06bbElRY5sKmglk74ppgTW93Et4-EJFyNiUZMb8JY
+  default_config_hash: X9I1OB0W3WlWtrK-CNcg6hNWwa8wficanpH8pYnDZDE
 id: bartik_local_tasks
 theme: bartik
 region: content
-weight: -20
+weight: -40
 provider: null
 plugin: local_tasks_block
 settings:
   id: local_tasks_block
-  label: Sakid
+  label: Tabs
   provider: core
   label_display: '0'
   primary: true

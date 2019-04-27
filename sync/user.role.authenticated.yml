@@ -1,12 +1,19 @@
-uuid: fef02a7a-a73b-431b-96d4-eba097c4528d
-langcode: et
+uuid: d2d9f4d8-f21b-4853-8cdd-983db65883ed
+langcode: en
 status: true
 dependencies: {  }
 _core:
   default_config_hash: dJ0L2DNSj5q6XVZAGsuVDpJTh5UeYkIPwKrUOOpr8YI
 id: authenticated
-label: 'Autenditud kasutaja'
+label: 'Authenticated user'
 weight: 1
 is_admin: false
 permissions:
+  - 'access comments'
   - 'access content'
+  - 'access shortcuts'
+  - 'access site-wide contact form'
+  - 'post comments'
+  - 'search content'
+  - 'skip comment approval'
+  - 'use text format basic_html'

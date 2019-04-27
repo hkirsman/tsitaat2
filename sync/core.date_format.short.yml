@@ -1,10 +1,10 @@
-uuid: 07f800e1-ee54-4bb5-b825-4d06fc76d48f
-langcode: et
+uuid: a28d06e4-b7a3-46ed-a2fb-cb8d9b512e81
+langcode: en
 status: true
 dependencies: {  }
 _core:
   default_config_hash: AlzeyytA8InBgxIG9H2UDJYs3CG98Zj6yRsDKmlbZwA
 id: short
-label: 'Vaikimisi lühike kuupäevaformaat'
+label: 'Default short date'
 locked: false
-pattern: 'd/m/Y - H:i'
+pattern: 'm/d/Y - H:i'

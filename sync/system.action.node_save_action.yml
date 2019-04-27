@@ -1,5 +1,5 @@
-uuid: d5d2acf9-24b7-492b-b6eb-774035fa12d8
-langcode: et
+uuid: 5d077008-3bbc-46a5-8aed-1ba6a09c0e74
+langcode: en
 status: true
 dependencies:
   module:
@@ -7,7 +7,7 @@ dependencies:
 _core:
   default_config_hash: LhdsoZPL_pFas2fjaAWue4zvrQ_tEVofLYtcNec-JGM
 id: node_save_action
-label: 'Sisu salvestamine'
+label: 'Save content'
 type: node
 plugin: 'entity:save_action:node'
 configuration: {  }

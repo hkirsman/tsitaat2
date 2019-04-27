@@ -19,15 +19,6 @@ services:
       - "cd /app && composer install"
   database:
     type: mariadb:10.2
-  # Create a node instance for theming.
-  # @todo: This seemed big image. Should check for more light-weight versions from the official docker node page.
-  node:
-    type: node:8.14
-    globals:
-      gulp-cli: "latest"
-    run-as-root:
-      - "echo fs.inotify.max_user_watches=524288 | sudo tee -a /etc/sysctl.conf && sudo sysctl -p"
-      - npm install
 
 events:
   post-db-import:
@@ -41,8 +32,3 @@ tooling:
     service: appserver
     cmd:
       - "drush --root=/app/web --uri=http://local.tsitaat.com/"
-  npm:
-    service: node
-  gulp:
-    description: Run gulp commands to build the theme. For ex use 'lando gulp build', 'lando gulp watch'...
-    service: node

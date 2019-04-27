@@ -41,6 +41,10 @@ if (getenv('LANDO_INFO') !== FALSE) {
     'driver'    => 'mysql',
   );
 
+  $config['elasticsearch_helper.settings']['elasticsearch_helper']['scheme'] = 'http';
+  $config['elasticsearch_helper.settings']['elasticsearch_helper']['host'] = 'elasticsearch';
+  $config['elasticsearch_helper.settings']['elasticsearch_helper']['port'] = '9200';
+
   // Disable css/js aggregation.
   $config['system.performance']['css']['preprocess'] = FALSE;
   $config['system.performance']['js']['preprocess'] = FALSE;

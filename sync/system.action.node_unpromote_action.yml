@@ -1,5 +1,5 @@
 uuid: db6e8cc4-0098-4005-a21e-dfa9120b72ea
-langcode: en
+langcode: et
 status: true
 dependencies:
   module:
@@ -7,7 +7,7 @@ dependencies:
 _core:
   default_config_hash: JBptjnfuOMtsdKygklXxoOgeOCTMtQxlkymjnnj-cC0
 id: node_unpromote_action
-label: 'Remove content from front page'
+label: 'Sisu eemaldamine esilehelt'
 type: node
 plugin: node_unpromote_action
 configuration: {  }

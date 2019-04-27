@@ -1,5 +1,5 @@
 uuid: aa189f6c-610d-4ff0-89f8-92bed40c0e51
-langcode: en
+langcode: et
 status: true
 dependencies:
   config:
@@ -24,6 +24,7 @@ content:
 hidden:
   body: true
   comment: true
+  comment_node_article: true
   field_image: true
   field_tags: true
   langcode: true

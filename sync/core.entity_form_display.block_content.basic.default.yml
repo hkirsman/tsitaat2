@@ -1,5 +1,5 @@
 uuid: 67f82d06-f52b-43f3-90c1-5d067d0bacae
-langcode: en
+langcode: et
 status: true
 dependencies:
   config:
@@ -15,7 +15,7 @@ bundle: basic
 mode: default
 content:
   body:
-    weight: 26
+    weight: 27
     settings:
       rows: 9
       summary_rows: 3

@@ -1,5 +1,5 @@
 uuid: 4e255350-3669-4769-ab81-9313b1fa8c98
-langcode: en
+langcode: et
 status: true
 dependencies:
   config:
@@ -60,7 +60,7 @@ content:
       image_style: ''
       image_link: content
     type: image
-    weight: 6
+    weight: 7
     third_party_settings: {  }
     region: content
   user_website:

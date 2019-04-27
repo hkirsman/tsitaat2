@@ -1,5 +1,5 @@
 uuid: 30cac147-0c9c-44a5-b68e-39811435325b
-langcode: en
+langcode: et
 status: true
 dependencies:
   config:
@@ -16,7 +16,7 @@ mode: default
 content:
   body:
     label: hidden
-    weight: 1
+    weight: 2
     settings: {  }
     third_party_settings: {  }
     type: text_default

@@ -1,5 +1,5 @@
 uuid: 98f198da-8784-4e68-aa39-53411d8cae9e
-langcode: en
+langcode: et
 status: true
 dependencies:
   enforced:
@@ -10,4 +10,4 @@ _core:
 id: comment_forum
 label: 'Foorumi teema comment'
 target_entity_type_id: node
-description: 'Default comment field'
+description: 'Vaikimisi kommentaariväli'

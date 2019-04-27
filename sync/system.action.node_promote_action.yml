@@ -1,5 +1,5 @@
 uuid: 202af2af-b55d-4d3f-abf0-29e02728e112
-langcode: en
+langcode: et
 status: true
 dependencies:
   module:
@@ -7,7 +7,7 @@ dependencies:
 _core:
   default_config_hash: N0RDBTqiK4dKoN4p4oW2j0SGWycdHyALUe9M-Ofp89U
 id: node_promote_action
-label: 'Promote content to front page'
+label: 'Sisu tõstmine esilehele'
 type: node
 plugin: node_promote_action
 configuration: {  }

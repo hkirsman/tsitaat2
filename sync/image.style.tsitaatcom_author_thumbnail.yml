@@ -5,16 +5,16 @@ dependencies: {  }
 name: tsitaatcom_author_thumbnail
 label: 'TsitaatCom Author Thumbnail'
 effects:
-  f83b1ac6-1e6d-4869-84b2-7a727db2beb8:
-    uuid: f83b1ac6-1e6d-4869-84b2-7a727db2beb8
+  1f2be78d-3210-4c47-859e-ed7110d13b0a:
+    uuid: 1f2be78d-3210-4c47-859e-ed7110d13b0a
     id: image_scale
     weight: 1
     data:
       width: 67
       height: null
       upscale: true
-  11c29100-dba4-4266-b94c-d5f1401e6a0f:
-    uuid: 11c29100-dba4-4266-b94c-d5f1401e6a0f
+  8655ff90-ec89-454c-bdc3-153d91c1a145:
+    uuid: 8655ff90-ec89-454c-bdc3-153d91c1a145
     id: image_crop
     weight: 2
     data:

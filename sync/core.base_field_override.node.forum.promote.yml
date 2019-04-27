@@ -1,5 +1,5 @@
 uuid: 10198e35-e7f4-4be1-9f99-04178179a695
-langcode: en
+langcode: et
 status: true
 dependencies:
   config:
@@ -10,7 +10,7 @@ id: node.forum.promote
 field_name: promote
 entity_type: node
 bundle: forum
-label: 'Promoted to front page'
+label: 'Ülendatud esilehele'
 description: ''
 required: false
 translatable: true
@@ -19,6 +19,6 @@ default_value:
     value: 0
 default_value_callback: ''
 settings:
-  on_label: 'On'
-  off_label: 'Off'
+  on_label: Sees
+  off_label: Väljas
 field_type: boolean

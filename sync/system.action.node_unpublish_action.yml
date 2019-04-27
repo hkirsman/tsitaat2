@@ -1,5 +1,5 @@
 uuid: 03242da3-50a0-44d7-89e4-5a8abc1ccb9f
-langcode: en
+langcode: et
 status: true
 dependencies:
   module:
@@ -7,7 +7,7 @@ dependencies:
 _core:
   default_config_hash: C7X8h9FWlwkQ9y5mnU2JzgaZICAdc6HFbPVbhvjlAYE
 id: node_unpublish_action
-label: 'Unpublish content'
+label: 'Sisu muutmine mitteavaldatuks'
 type: node
 plugin: 'entity:unpublish_action:node'
 configuration: {  }

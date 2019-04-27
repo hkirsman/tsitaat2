@@ -1,5 +1,5 @@
 uuid: bf5c7490-64eb-42db-99c3-7d45958977d4
-langcode: en
+langcode: et
 status: false
 dependencies:
   module:
@@ -7,6 +7,6 @@ dependencies:
 _core:
   default_config_hash: fVFfJv_GzBRE-wpRHbfD5a3VjnhbEOXG6lvRd3uaccY
 id: node.search_index
-label: 'Search index'
+label: Otsinguindeks
 targetEntityType: node
 cache: true

@@ -23,8 +23,8 @@ status_blocked:
   body: "Tere [user:name]\r\n\r\nSinu konto aadressil [site:name] on blokeeritud.\r\n\r\n--  [site:name] meeskond"
   subject: 'Konto [user:name] andmed saidil [site:name] (blokeeritud)'
 status_canceled:
-  body: "[user:display-name],\n\nYour account on [site:name] has been canceled.\n\n--  [site:name] team"
-  subject: 'Account details for [user:display-name] at [site:name] (canceled)'
-langcode: en
+  body: "[user:display-name],\r\n\r\nSinu konto saidil [site:name] on tühistatud.\r\n\r\n--  [site:name] meeskond"
+  subject: 'Konto [user:display-name] andmed saidil [site:name] (tühistatud)'
+langcode: et
 _core:
   default_config_hash: IWzNdUVX2YSiflxrGSTLIiqTrhgIzbV2C-hRL5DniJM

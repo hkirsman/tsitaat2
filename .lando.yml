@@ -19,6 +19,24 @@ services:
       - "cd /app && composer install"
   database:
     type: mariadb:10.2
+  elasticsearch:
+    type: compose
+    services:
+      image: blacktop/elasticsearch:6.4.0
+      command: /elastic-entrypoint.sh elasticsearch
+      # define port as "9200:9200" if you want to access directly in host.
+      ports:
+        - "9200"
+  # Access Kibana at http://localhost:5601
+  kibana:
+    type: compose
+    services:
+      image: blacktop/kibana:6.4.0
+      environment:
+        KIBANA_ELASTICSEARCH_URL: http://elasticsearch:9200
+      ports:
+        - "5601:5601"
+      command: /docker-entrypoint.sh kibana
 
 events:
   post-db-import:

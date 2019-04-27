@@ -1,5 +1,5 @@
 uuid: 5a8f4ab3-a0ed-4111-8686-106a372b7d8e
-langcode: en
+langcode: et
 status: true
 dependencies:
   module:
@@ -7,7 +7,7 @@ dependencies:
 _core:
   default_config_hash: sOb26JSy3fGpWkvR0WYN6_hMqj_6d1rvbvrkzp1yya0
 id: node_make_sticky_action
-label: 'Make content sticky'
+label: 'Sisu muutmine kleepuvaks'
 type: node
 plugin: node_make_sticky_action
 configuration: {  }

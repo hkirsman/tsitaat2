@@ -1,5 +1,5 @@
 uuid: 623a6c75-0e0a-451a-865f-87fc849ba20d
-langcode: en
+langcode: et
 status: true
 dependencies:
   config:
@@ -20,6 +20,6 @@ default_value:
     value: 0
 default_value_callback: ''
 settings:
-  on_label: 'Yes'
-  off_label: 'No'
+  on_label: Jah
+  off_label: Ei
 field_type: boolean

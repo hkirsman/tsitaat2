@@ -1,10 +1,10 @@
 uuid: 9da84adb-dc31-43d1-bd45-25c472e3a998
-langcode: en
+langcode: et
 status: true
 dependencies: {  }
 _core:
   default_config_hash: og8sWXhBuHbLMw3CoiBEZjgqSyhFBFmcbUW_wLcfNbo
 id: long
-label: 'Default long date'
+label: 'Vaikimisi pikk kuupäevaformaat'
 locked: false
 pattern: 'l, F j, Y - H:i'

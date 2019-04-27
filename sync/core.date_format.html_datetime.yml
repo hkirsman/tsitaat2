@@ -1,10 +1,10 @@
 uuid: 18261a93-d7b1-4a7f-b56c-9b64724f06db
-langcode: en
+langcode: et
 status: true
 dependencies: {  }
 _core:
   default_config_hash: jxfClwZIRXIdcvMrE--WkcZxDGUVoOIE3Sm2NRZlFuE
 id: html_datetime
-label: 'HTML Datetime'
+label: 'HTML Kuupäev ja kellaaeg'
 locked: true
 pattern: 'Y-m-d\TH:i:sO'

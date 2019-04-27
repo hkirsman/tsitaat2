@@ -1,5 +1,5 @@
 uuid: b44e9c10-77e9-447a-967b-96623b159fc6
-langcode: en
+langcode: et
 status: true
 dependencies:
   module:
@@ -19,7 +19,7 @@ display:
   default:
     display_plugin: default
     id: default
-    display_title: Master
+    display_title: Peamine
     position: 0
     display_options:
       access:
@@ -40,13 +40,13 @@ display:
       exposed_form:
         type: basic
         options:
-          submit_button: Filter
+          submit_button: Filtreeri
           reset_button: true
-          reset_button_label: Reset
-          exposed_sorts_label: 'Sort by'
+          reset_button_label: Tühista
+          exposed_sorts_label: 'Sorteerimise alus'
           expose_sort_order: true
-          sort_asc_label: Asc
-          sort_desc_label: Desc
+          sort_asc_label: Kasvav
+          sort_desc_label: Kahanev
       pager:
         type: mini
         options:
@@ -56,12 +56,12 @@ display:
           total_pages: null
           expose:
             items_per_page: false
-            items_per_page_label: 'Items per page'
+            items_per_page_label: 'Kirjeid lehel'
             items_per_page_options: '5, 10, 25, 50'
             items_per_page_options_all: false
-            items_per_page_options_all_label: '- All -'
+            items_per_page_options_all_label: '- Kõik -'
             offset: false
-            offset_label: Offset
+            offset_label: Nihe
           tags:
             previous: ‹‹
             next: ››
@@ -117,7 +117,7 @@ display:
           relationship: none
           group_type: group
           admin_label: ''
-          label: Path
+          label: Tee
           exclude: false
           alter:
             alter_text: false
@@ -165,7 +165,7 @@ display:
           relationship: none
           group_type: group
           admin_label: ''
-          label: Count
+          label: Arv
           exclude: false
           alter:
             alter_text: false
@@ -216,7 +216,7 @@ display:
           relationship: none
           group_type: group
           admin_label: ''
-          label: 'Last accessed'
+          label: 'Viimati kasutatud'
           exclude: false
           alter:
             alter_text: false
@@ -268,7 +268,7 @@ display:
           relationship: none
           group_type: group
           admin_label: ''
-          label: Language
+          label: Keel
           exclude: false
           alter:
             alter_text: false
@@ -317,7 +317,7 @@ display:
           relationship: none
           group_type: group
           admin_label: ''
-          label: Operations
+          label: Toimingud
           exclude: false
           alter:
             alter_text: false
@@ -373,7 +373,7 @@ display:
           exposed: true
           expose:
             operator_id: path_op
-            label: Path
+            label: Tee
             description: ''
             use_operator: false
             operator: path_op
@@ -411,7 +411,7 @@ display:
           exposed: true
           expose:
             operator_id: langcode_op
-            label: Language
+            label: Keel
             description: ''
             use_operator: false
             operator: langcode_op
@@ -476,7 +476,7 @@ display:
             group_items: {  }
           plugin_id: boolean
       sorts: {  }
-      title: 'Fix 404 pages'
+      title: 'Paranda 404 lehti'
       header: {  }
       footer: {  }
       empty:
@@ -509,7 +509,7 @@ display:
   page_1:
     display_plugin: page
     id: page_1
-    display_title: Page
+    display_title: Lehekülg
     position: 1
     display_options:
       display_extenders: {  }

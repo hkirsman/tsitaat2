@@ -1,10 +1,10 @@
 uuid: 47069194-40bf-4840-b228-1daa71be2562
-langcode: en
+langcode: et
 status: true
 dependencies: {  }
 _core:
   default_config_hash: EOQltUQPmgc6UQ2rcJ4Xi_leCEJj5ui0TR-12duS-Tk
 id: html_date
-label: 'HTML Date'
+label: 'HTML Kuupäev'
 locked: true
 pattern: Y-m-d

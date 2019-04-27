@@ -1,10 +1,10 @@
 all:
+  - language_interface
   - language_content
   - language_url
-  - language_interface
 configurable:
-  - language_content
   - language_interface
+  - language_content
 negotiation:
   language_content:
     enabled:
@@ -17,3 +17,4 @@ negotiation:
     enabled: {  }
 _core:
   default_config_hash: dqouFqVseNJNvEjsoYKxbinFOITuCxYhi4y2OTNQP_8
+langcode: et

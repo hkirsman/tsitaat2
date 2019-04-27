@@ -1,5 +1,5 @@
 uuid: ca3049d9-ca45-45a1-9f85-0b3442a8554d
-langcode: en
+langcode: et
 status: true
 dependencies:
   module:
@@ -7,7 +7,7 @@ dependencies:
 _core:
   default_config_hash: tWOIjSMobEWOFZddMkNqb9JySbOVwE1diC6NRqcfLTk
 id: comment_unpublish_action
-label: 'Unpublish comment'
+label: 'Kommentaari muutmine mitteavaldatuks'
 type: comment
 plugin: 'entity:unpublish_action:comment'
 configuration: {  }

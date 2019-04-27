@@ -1,5 +1,5 @@
 uuid: 69729718-3d4e-4c8a-b58e-455cbfdb0aa0
-langcode: en
+langcode: et
 status: true
 dependencies:
   config:
@@ -28,3 +28,8 @@ content:
 hidden:
   langcode: true
   member_for: true
+  user_from: true
+  user_im: true
+  user_interests: true
+  user_occ: true
+  user_website: true

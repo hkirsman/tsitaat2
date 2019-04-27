@@ -4,8 +4,8 @@ recipe: drupal8
 
 config:
   webroot: web
-  php: '7.2'
-  drush: 9.6.2
+  php: 7.2
+  drush: 9.6.*
 
 proxy:
   appserver:

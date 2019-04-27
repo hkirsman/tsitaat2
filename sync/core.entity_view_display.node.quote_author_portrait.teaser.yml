@@ -1,0 +1,23 @@
+uuid: fc56b5ce-2b5a-4f68-a104-7c79aaa39473
+langcode: et
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.quote_author_portrait.field_qap_portrait
+    - node.type.quote_author_portrait
+  module:
+    - user
+id: node.quote_author_portrait.teaser
+targetEntityType: node
+bundle: quote_author_portrait
+mode: teaser
+content:
+  links:
+    weight: 100
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+hidden:
+  field_qap_portrait: true
+  langcode: true

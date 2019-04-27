@@ -1,0 +1,20 @@
+uuid: 87c05390-d50d-405a-a335-b2622874a78a
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.user.user_occ
+  module:
+    - user
+id: user.user.user_occ
+field_name: user_occ
+entity_type: user
+bundle: user
+label: Occupation
+description: 'What does the user do for a living'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

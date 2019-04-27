@@ -1,0 +1,20 @@
+uuid: f066b4cf-522a-4e83-9736-d160633c6d5c
+langcode: und
+status: true
+dependencies:
+  module:
+    - node
+id: node.field_qs_source_day_start
+field_name: field_qs_source_day_start
+entity_type: node
+type: integer
+settings:
+  unsigned: false
+  size: normal
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

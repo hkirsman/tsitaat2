@@ -1,0 +1,23 @@
+uuid: 2bbb6666-4482-4ca1-9404-360c8cacbf32
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_qa_death_year_circa
+    - node.type.quote_author
+id: node.quote_author.field_qa_death_year_circa
+field_name: field_qa_death_year_circa
+entity_type: node
+bundle: quote_author
+label: 'Surmaasta ebatäpne'
+description: ''
+required: false
+translatable: false
+default_value:
+  -
+    value: 0
+default_value_callback: ''
+settings:
+  on_label: 'On'
+  off_label: 'Off'
+field_type: boolean

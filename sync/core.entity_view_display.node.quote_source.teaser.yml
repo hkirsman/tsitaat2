@@ -1,0 +1,47 @@
+uuid: f21032bd-5e87-4103-b732-d1b3fff53844
+langcode: et
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.quote_source.comment_node_quote_source
+    - field.field.node.quote_source.field_qs_amazon_product_link
+    - field.field.node.quote_source.field_qs_id
+    - field.field.node.quote_source.field_qs_isbn
+    - field.field.node.quote_source.field_qs_name
+    - field.field.node.quote_source.field_qs_source_day_start
+    - field.field.node.quote_source.field_qs_source_month_start
+    - field.field.node.quote_source.field_qs_source_year_end
+    - field.field.node.quote_source.field_qs_source_year_end_circa
+    - field.field.node.quote_source.field_qs_source_year_start
+    - field.field.node.quote_source.field_qs_source_year_start_circa
+    - field.field.node.quote_source.field_qs_url
+    - field.field.node.quote_source.field_qs_url_alias
+    - node.type.quote_source
+  module:
+    - user
+id: node.quote_source.teaser
+targetEntityType: node
+bundle: quote_source
+mode: teaser
+content:
+  links:
+    weight: 100
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+hidden:
+  comment_node_quote_source: true
+  field_qs_amazon_product_link: true
+  field_qs_id: true
+  field_qs_isbn: true
+  field_qs_name: true
+  field_qs_source_day_start: true
+  field_qs_source_month_start: true
+  field_qs_source_year_end: true
+  field_qs_source_year_end_circa: true
+  field_qs_source_year_start: true
+  field_qs_source_year_start_circa: true
+  field_qs_url: true
+  field_qs_url_alias: true
+  langcode: true

@@ -1,0 +1,30 @@
+uuid: cce7146c-f39a-429d-8059-8d9eefe24092
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_q_author
+    - node.type.quote
+    - node.type.quote_author
+id: node.quote.field_q_author
+field_name: field_q_author
+entity_type: node
+bundle: quote
+label: 'Tsitaadi autor(id)'
+description: 'Vali lisatavale tsitaadile autor. Kui ei leia õiget autorit, siis soovita uut.'
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:node'
+  handler_settings:
+    target_bundles:
+      quote_author: quote_author
+    sort:
+      field: _none
+      direction: ASC
+    behaviors:
+      views-select-list:
+        status: 0
+field_type: entity_reference

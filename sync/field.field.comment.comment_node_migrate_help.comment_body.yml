@@ -1,0 +1,21 @@
+uuid: 8b76ae06-aab0-47dc-b1a5-91408dc66ada
+langcode: en
+status: true
+dependencies:
+  config:
+    - comment.type.comment_node_migrate_help
+    - field.storage.comment.comment_body
+  module:
+    - text
+id: comment.comment_node_migrate_help.comment_body
+field_name: comment_body
+entity_type: comment
+bundle: comment_node_migrate_help
+label: Comment
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: text_long

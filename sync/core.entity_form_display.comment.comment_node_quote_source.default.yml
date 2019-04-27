@@ -1,0 +1,36 @@
+uuid: a3ae9c5f-a241-4918-81ed-e6114de47db7
+langcode: en
+status: true
+dependencies:
+  config:
+    - comment.type.comment_node_quote_source
+    - field.field.comment.comment_node_quote_source.comment_body
+  module:
+    - text
+id: comment.comment_node_quote_source.default
+targetEntityType: comment
+bundle: comment_node_quote_source
+mode: default
+content:
+  author:
+    weight: -2
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+  comment_body:
+    weight: 0
+    type: text_textarea
+    settings:
+      rows: 5
+      placeholder: ''
+    third_party_settings: {  }
+    region: content
+  langcode:
+    type: language_select
+    weight: 2
+    region: content
+    settings:
+      include_locked: true
+    third_party_settings: {  }
+hidden:
+  subject: true

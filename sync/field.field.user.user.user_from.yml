@@ -1,0 +1,20 @@
+uuid: a5bada15-c77d-4026-a640-f2e1e87dfead
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.user.user_from
+  module:
+    - user
+id: user.user.user_from
+field_name: user_from
+entity_type: user
+bundle: user
+label: From
+description: 'Place the user is from'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

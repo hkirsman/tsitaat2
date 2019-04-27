@@ -1,0 +1,19 @@
+uuid: 9fa8c156-c736-48b5-933c-d7dbef2c9a68
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_q_quote
+    - node.type.quote
+id: node.quote.field_q_quote
+field_name: field_q_quote
+entity_type: node
+bundle: quote
+label: Tsitaat
+description: 'Enne tsitaadi lisamist kontrolli, et lisatavat tsitaati ei oleks lehe olemas.'
+required: true
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string_long

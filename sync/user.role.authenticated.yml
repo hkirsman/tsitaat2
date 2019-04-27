@@ -1,19 +1,21 @@
-uuid: d2d9f4d8-f21b-4853-8cdd-983db65883ed
+uuid: 81b6832c-b0b4-4089-83b1-b554fb5ce1a8
 langcode: en
 status: true
 dependencies: {  }
 _core:
   default_config_hash: dJ0L2DNSj5q6XVZAGsuVDpJTh5UeYkIPwKrUOOpr8YI
 id: authenticated
-label: 'Authenticated user'
+label: 'authenticated user'
 weight: 1
 is_admin: false
 permissions:
-  - 'access comments'
   - 'access content'
-  - 'access shortcuts'
-  - 'access site-wide contact form'
-  - 'post comments'
+  - 'access overlay'
+  - 'create quote content'
+  - 'create quote_author content'
+  - 'delete own quote content'
+  - 'diff view changes'
+  - 'edit own quote content'
+  - 'edit own quote_author content'
+  - 'search Google CSE'
   - 'search content'
-  - 'skip comment approval'
-  - 'use text format basic_html'

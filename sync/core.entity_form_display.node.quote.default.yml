@@ -1,0 +1,165 @@
+uuid: 38d3ae89-7891-43e9-acca-6855c8d4cfd0
+langcode: et
+status: true
+dependencies:
+  config:
+    - field.field.node.quote.comment_node_quote
+    - field.field.node.quote.field_q_author
+    - field.field.node.quote.field_q_category
+    - field.field.node.quote.field_q_language_auto
+    - field.field.node.quote.field_q_quote
+    - field.field.node.quote.field_q_rank
+    - field.field.node.quote.field_q_source
+    - field.field.node.quote.field_q_source_title_xtra_prefix
+    - field.field.node.quote.field_q_source_title_xtra_suffix
+    - field.field.node.quote.field_q_tag
+    - field.field.node.quote.field_q_tag_auto
+    - node.type.quote
+  module:
+    - comment
+    - path
+id: node.quote.default
+targetEntityType: node
+bundle: quote
+mode: default
+content:
+  comment_node_quote:
+    type: comment_default
+    weight: 20
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+  created:
+    type: datetime_timestamp
+    weight: 10
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+  field_q_author:
+    weight: 0
+    type: options_select
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+  field_q_category:
+    weight: 3
+    type: options_select
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+  field_q_language_auto:
+    weight: 7
+    type: string_textfield
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    region: content
+  field_q_quote:
+    weight: 1
+    type: string_textarea
+    settings:
+      rows: 5
+      placeholder: ''
+    third_party_settings: {  }
+    region: content
+  field_q_rank:
+    weight: 9
+    type: number
+    settings:
+      placeholder: ''
+    third_party_settings: {  }
+    region: content
+  field_q_source:
+    weight: 4
+    type: options_select
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+  field_q_source_title_xtra_prefix:
+    weight: 5
+    type: string_textfield
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    region: content
+  field_q_source_title_xtra_suffix:
+    weight: 6
+    type: string_textfield
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    region: content
+  field_q_tag:
+    weight: 2
+    type: options_select
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+  field_q_tag_auto:
+    weight: 10
+    type: string_textfield
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    region: content
+  langcode:
+    type: language_select
+    weight: 2
+    region: content
+    settings:
+      include_locked: true
+    third_party_settings: {  }
+  path:
+    type: path
+    weight: 30
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+  promote:
+    type: boolean_checkbox
+    settings:
+      display_label: true
+    weight: 15
+    region: content
+    third_party_settings: {  }
+  status:
+    type: boolean_checkbox
+    settings:
+      display_label: true
+    weight: 120
+    region: content
+    third_party_settings: {  }
+  sticky:
+    type: boolean_checkbox
+    settings:
+      display_label: true
+    weight: 16
+    region: content
+    third_party_settings: {  }
+  title:
+    type: string_textfield
+    weight: -5
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  uid:
+    type: entity_reference_autocomplete
+    weight: 5
+    settings:
+      match_operator: CONTAINS
+      size: 60
+      placeholder: ''
+    region: content
+    third_party_settings: {  }
+  url_redirects:
+    weight: 50
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+hidden: {  }

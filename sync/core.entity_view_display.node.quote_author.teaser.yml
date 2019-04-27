@@ -1,0 +1,49 @@
+uuid: 9211e4a0-ca9e-4a46-baee-5f87726d3d01
+langcode: et
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.quote_author.comment_node_quote_author
+    - field.field.node.quote_author.field_qa_born_year
+    - field.field.node.quote_author.field_qa_born_year_circa
+    - field.field.node.quote_author.field_qa_death_year
+    - field.field.node.quote_author.field_qa_death_year_circa
+    - field.field.node.quote_author.field_qa_firstname
+    - field.field.node.quote_author.field_qa_is_tsitaatcom_user
+    - field.field.node.quote_author.field_qa_lastname
+    - field.field.node.quote_author.field_qa_midname
+    - field.field.node.quote_author.field_qa_name_freeform
+    - field.field.node.quote_author.field_qa_portrait_ref
+    - field.field.node.quote_author.field_qa_profession
+    - field.field.node.quote_author.field_qa_url_alias
+    - field.field.node.quote_author.field_qa_wiki_url
+    - node.type.quote_author
+  module:
+    - user
+id: node.quote_author.teaser
+targetEntityType: node
+bundle: quote_author
+mode: teaser
+content:
+  links:
+    weight: 100
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+hidden:
+  comment_node_quote_author: true
+  field_qa_born_year: true
+  field_qa_born_year_circa: true
+  field_qa_death_year: true
+  field_qa_death_year_circa: true
+  field_qa_firstname: true
+  field_qa_is_tsitaatcom_user: true
+  field_qa_lastname: true
+  field_qa_midname: true
+  field_qa_name_freeform: true
+  field_qa_portrait_ref: true
+  field_qa_profession: true
+  field_qa_url_alias: true
+  field_qa_wiki_url: true
+  langcode: true

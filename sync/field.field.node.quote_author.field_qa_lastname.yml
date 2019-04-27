@@ -1,0 +1,19 @@
+uuid: de7610d4-1c30-4289-a4c2-423eab7991c0
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_qa_lastname
+    - node.type.quote_author
+id: node.quote_author.field_qa_lastname
+field_name: field_qa_lastname
+entity_type: node
+bundle: quote_author
+label: Perenimi
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

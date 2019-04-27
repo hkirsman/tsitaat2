@@ -1,0 +1,19 @@
+uuid: ace61791-f65e-4250-86ce-df873a7249e8
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_qa_firstname
+    - node.type.quote_author
+id: node.quote_author.field_qa_firstname
+field_name: field_qa_firstname
+entity_type: node
+bundle: quote_author
+label: Eesnimi
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

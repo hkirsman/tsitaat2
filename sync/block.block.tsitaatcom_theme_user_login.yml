@@ -1,0 +1,20 @@
+uuid: 8964bb8d-94fe-4b6e-8242-bde954d9ad54
+langcode: en
+status: true
+dependencies:
+  module:
+    - user
+  theme:
+    - bartik
+id: tsitaatcom_theme_user_login
+theme: bartik
+region: content
+weight: -12
+provider: null
+plugin: user_login_block
+settings:
+  id: user_login_block
+  label: '<none>'
+  provider: user
+  label_display: visible
+visibility: {  }

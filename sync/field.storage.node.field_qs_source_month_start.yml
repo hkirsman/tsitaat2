@@ -1,0 +1,20 @@
+uuid: 46b3e271-e326-4877-bf49-bdb6717c422d
+langcode: und
+status: true
+dependencies:
+  module:
+    - node
+id: node.field_qs_source_month_start
+field_name: field_qs_source_month_start
+entity_type: node
+type: integer
+settings:
+  unsigned: false
+  size: normal
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

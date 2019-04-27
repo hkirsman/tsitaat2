@@ -1,4 +1,4 @@
-uuid: 79ef3e3b-0332-4fdf-bfae-cba80bffac60
+uuid: 67f82d06-f52b-43f3-90c1-5d067d0bacae
 langcode: en
 status: true
 dependencies:
@@ -15,14 +15,14 @@ bundle: basic
 mode: default
 content:
   body:
-    type: text_textarea_with_summary
-    weight: -4
-    region: content
+    weight: 26
     settings:
       rows: 9
       summary_rows: 3
       placeholder: ''
     third_party_settings: {  }
+    type: text_textarea_with_summary
+    region: content
   info:
     type: string_textfield
     weight: -5

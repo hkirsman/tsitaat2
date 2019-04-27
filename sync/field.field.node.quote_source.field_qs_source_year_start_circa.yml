@@ -1,0 +1,23 @@
+uuid: 46346f2c-613f-46c5-88b7-aaa5dcddbc3a
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_qs_source_year_start_circa
+    - node.type.quote_source
+id: node.quote_source.field_qs_source_year_start_circa
+field_name: field_qs_source_year_start_circa
+entity_type: node
+bundle: quote_source
+label: 'Year start circa'
+description: ''
+required: false
+translatable: false
+default_value:
+  -
+    value: 0
+default_value_callback: ''
+settings:
+  on_label: 'On'
+  off_label: 'Off'
+field_type: boolean

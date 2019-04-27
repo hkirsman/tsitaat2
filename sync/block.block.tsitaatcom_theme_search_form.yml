@@ -1,4 +1,4 @@
-uuid: e18a17d6-ff78-45bf-ad2f-ee192d5f0ccc
+uuid: 259814cd-713c-4526-b9fb-c0897ac6147c
 langcode: en
 status: true
 dependencies:
@@ -8,15 +8,15 @@ dependencies:
     - bartik
 _core:
   default_config_hash: za-39d5WDUg6XvbyqSnuVYEeq6QM4qKJxW8MnoAha5A
-id: bartik_search
+id: tsitaatcom_theme_search_form
 theme: bartik
-region: sidebar_first
-weight: -1
+region: content
+weight: -12
 provider: null
 plugin: search_form_block
 settings:
   id: search_form_block
-  label: Search
+  label: '<none>'
   provider: search
   label_display: visible
 visibility: {  }

@@ -1,0 +1,19 @@
+uuid: 93201be0-985f-4d30-93fd-f63e1cf9fe9f
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_qa_midname
+    - node.type.quote_author
+id: node.quote_author.field_qa_midname
+field_name: field_qa_midname
+entity_type: node
+bundle: quote_author
+label: 'Keskmine nimi'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

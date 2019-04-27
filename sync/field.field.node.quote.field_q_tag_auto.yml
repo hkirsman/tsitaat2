@@ -1,0 +1,19 @@
+uuid: a4184a73-8244-4c41-8380-6e5e504720ff
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_q_tag_auto
+    - node.type.quote
+id: node.quote.field_q_tag_auto
+field_name: field_q_tag_auto
+entity_type: node
+bundle: quote
+label: 'Tag auto'
+description: 'On quote save, we''ll populate all the tags to this field as string. This is for easier database query.'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

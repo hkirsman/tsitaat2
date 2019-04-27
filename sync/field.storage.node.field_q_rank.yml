@@ -1,0 +1,20 @@
+uuid: c13899ce-47be-4c90-a19e-6c57b13b4079
+langcode: und
+status: true
+dependencies:
+  module:
+    - node
+id: node.field_q_rank
+field_name: field_q_rank
+entity_type: node
+type: integer
+settings:
+  unsigned: false
+  size: normal
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

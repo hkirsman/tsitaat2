@@ -1,10 +1,11 @@
-uuid: faf53964-076a-4d4f-926f-8058e4f83240
+uuid: f406e048-0e7e-4052-b0ae-076d0e6db119
 langcode: en
 status: true
 dependencies:
   config:
     - field.field.node.article.body
     - field.field.node.article.comment
+    - field.field.node.article.comment_node_article
     - field.field.node.article.field_image
     - field.field.node.article.field_tags
     - image.style.thumbnail
@@ -22,20 +23,26 @@ bundle: article
 mode: default
 content:
   body:
+    weight: -4
     type: text_textarea_with_summary
-    weight: 1
-    region: content
     settings:
       rows: 9
       summary_rows: 3
       placeholder: ''
     third_party_settings: {  }
+    region: content
   comment:
     type: comment_default
     weight: 20
     region: content
     settings: {  }
     third_party_settings: {  }
+  comment_node_article:
+    type: comment_default
+    weight: 20
+    settings: {  }
+    third_party_settings: {  }
+    region: content
   created:
     type: datetime_timestamp
     weight: 10
@@ -110,4 +117,9 @@ content:
       size: 60
       placeholder: ''
     third_party_settings: {  }
+  url_redirects:
+    weight: 50
+    settings: {  }
+    third_party_settings: {  }
+    region: content
 hidden: {  }

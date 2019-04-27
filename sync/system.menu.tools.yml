@@ -1,10 +1,10 @@
-uuid: 2e275648-03c6-4c47-b7d5-21bf0b3d9001
+uuid: 4d11792a-1ba7-4d6f-ac5d-6979014ba034
 langcode: en
 status: true
 dependencies: {  }
 _core:
   default_config_hash: BCM-vV1zzRaLHN18dqAR_CuGOj8AFJvTx7BKl_8Gcxc
 id: tools
-label: Tools
-description: 'User tool links, often added by modules'
+label: Menüü
+description: '<em>Navigeerimise</em> menüü sisaldab külastajatele mõeldud linke. Mõned moodulid lisavad <em>navigeerimise</em> menüüsse linke automaatselt.'
 locked: true

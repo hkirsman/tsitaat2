@@ -1,22 +1,22 @@
-uuid: 421f78e8-8478-46f2-9206-da40eb5eac4e
+uuid: 0254361c-9830-491a-8c41-332590ebe563
 langcode: en
 status: true
 dependencies:
   module:
     - system
   theme:
-    - seven
+    - bartik
 _core:
-  default_config_hash: YRY68JWkaUiGeZlWMv1nzeIgDm0ZZwXYgpqUpLFzwAY
-id: seven_content
-theme: seven
+  default_config_hash: 9EoWV2Lot6FVSr50t4hoKgiz1LIXYWNG-IIPYsWxBqo
+id: tsitaatcom_theme_system_main
+theme: bartik
 region: content
-weight: 0
+weight: -13
 provider: null
 plugin: system_main_block
 settings:
   id: system_main_block
-  label: 'Main page content'
+  label: ''
   provider: system
   label_display: '0'
 visibility: {  }

@@ -1,0 +1,23 @@
+uuid: a23c2f7b-a887-4067-bcab-d9e532e6efec
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_qs_id
+    - node.type.quote_source
+id: node.quote_source.field_qs_id
+field_name: field_qs_id
+entity_type: node
+bundle: quote_source
+label: 'Quote Source id (old field)'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  max: null
+  min: null
+  prefix: ''
+  suffix: ''
+field_type: integer

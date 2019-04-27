@@ -1,0 +1,23 @@
+uuid: 4582d46a-cbd5-4f84-bc91-3951bd318400
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_qa_is_tsitaatcom_user
+    - node.type.quote_author
+id: node.quote_author.field_qa_is_tsitaatcom_user
+field_name: field_qa_is_tsitaatcom_user
+entity_type: node
+bundle: quote_author
+label: 'On tsitaat.com kasutaja?'
+description: ''
+required: false
+translatable: false
+default_value:
+  -
+    value: 0
+default_value_callback: ''
+settings:
+  on_label: 'On'
+  off_label: 'Off'
+field_type: boolean

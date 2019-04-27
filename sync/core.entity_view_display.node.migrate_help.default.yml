@@ -1,0 +1,32 @@
+uuid: 162827c7-37f8-4dda-8535-131922096dee
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_display.comment.comment_node_migrate_help.default
+    - field.field.node.migrate_help.comment_node_migrate_help
+    - node.type.migrate_help
+  module:
+    - comment
+    - user
+id: node.migrate_help.default
+targetEntityType: node
+bundle: migrate_help
+mode: default
+content:
+  comment_node_migrate_help:
+    label: hidden
+    type: comment_default
+    weight: 20
+    settings:
+      view_mode: default
+      pager_id: 0
+    third_party_settings: {  }
+    region: content
+  links:
+    weight: 100
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+hidden:
+  langcode: true

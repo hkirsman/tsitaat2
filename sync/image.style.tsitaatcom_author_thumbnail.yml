@@ -1,0 +1,23 @@
+uuid: 4ab1f574-b8dd-4edb-84fc-f91b0a27a8fe
+langcode: en
+status: true
+dependencies: {  }
+name: tsitaatcom_author_thumbnail
+label: 'TsitaatCom Author Thumbnail'
+effects:
+  f83b1ac6-1e6d-4869-84b2-7a727db2beb8:
+    uuid: f83b1ac6-1e6d-4869-84b2-7a727db2beb8
+    id: image_scale
+    weight: 1
+    data:
+      width: 67
+      height: null
+      upscale: true
+  11c29100-dba4-4266-b94c-d5f1401e6a0f:
+    uuid: 11c29100-dba4-4266-b94c-d5f1401e6a0f
+    id: image_crop
+    weight: 2
+    data:
+      width: 67
+      height: 67
+      anchor: center-top

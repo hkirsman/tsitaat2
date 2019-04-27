@@ -1,0 +1,18 @@
+uuid: 3ea2c6f1-cc46-44e3-a207-490ff5529f49
+langcode: et
+status: true
+dependencies:
+  config:
+    - node.type.quote_author
+id: node.quote_author.title
+field_name: title
+entity_type: node
+bundle: quote_author
+label: Pealkiri
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

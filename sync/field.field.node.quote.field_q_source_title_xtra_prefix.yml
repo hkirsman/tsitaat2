@@ -1,0 +1,19 @@
+uuid: 03f7f659-3e59-4ff3-98f6-00acf7039952
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_q_source_title_xtra_prefix
+    - node.type.quote
+id: node.quote.field_q_source_title_xtra_prefix
+field_name: field_q_source_title_xtra_prefix
+entity_type: node
+bundle: quote
+label: 'Allika prefiks'
+description: 'Short information about source. Use this field if the information is specific to this quote.'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

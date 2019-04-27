@@ -1,0 +1,16 @@
+uuid: 75b7ea4d-53a9-4bf6-adfe-0a00a3344959
+langcode: en
+status: true
+dependencies:
+  enforced:
+    module:
+      - forum
+_core:
+  default_config_hash: ERCHDVB33lub-cz7DSYR7HuBlYJjmVUdPw0IIYa3ZXc
+name: 'Foorumi teema'
+type: forum
+description: 'Foorumi teema alustab foormis uue arutluse lõime.'
+help: ''
+new_revision: false
+preview_mode: 1
+display_submitted: true

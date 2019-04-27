@@ -1,10 +1,10 @@
-uuid: 5b379cce-5a0a-4987-9c5c-a8ec6442e9be
+uuid: f473db7a-2724-444e-81c2-541b46dcf398
 langcode: en
 status: true
 dependencies: {  }
 _core:
   default_config_hash: sapEi2YDGoI9yQIT_WgIV2vUdQ6DScH0V3fAyTadAL0
 id: admin
-label: Administration
-description: 'Administrative task links'
+label: Management
+description: '<em>Haldamise</em> menüü sisaldab administreerimistoimingute linke.'
 locked: true

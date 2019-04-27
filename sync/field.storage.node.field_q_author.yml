@@ -1,0 +1,19 @@
+uuid: c1dff154-f7cb-47b4-83e1-56c710f2dd28
+langcode: und
+status: true
+dependencies:
+  module:
+    - node
+id: node.field_q_author
+field_name: field_q_author
+entity_type: node
+type: entity_reference
+settings:
+  target_type: node
+module: core
+locked: false
+cardinality: 2
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

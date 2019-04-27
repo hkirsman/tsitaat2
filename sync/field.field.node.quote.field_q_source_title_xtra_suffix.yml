@@ -1,0 +1,19 @@
+uuid: cef5a48e-3b85-48f9-980a-897f641838ac
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_q_source_title_xtra_suffix
+    - node.type.quote
+id: node.quote.field_q_source_title_xtra_suffix
+field_name: field_q_source_title_xtra_suffix
+entity_type: node
+bundle: quote
+label: 'Allika sufiks'
+description: 'Short information about source like page number. Use this field if the information is specific to this quote. If first character is comma, space is not added. Examples: ", p 23" and ", act II" and "translated by John Doe".'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

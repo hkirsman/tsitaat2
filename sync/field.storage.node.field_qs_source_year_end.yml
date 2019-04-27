@@ -1,0 +1,20 @@
+uuid: a2c81c30-48c5-40f8-bb54-266f816ab042
+langcode: und
+status: true
+dependencies:
+  module:
+    - node
+id: node.field_qs_source_year_end
+field_name: field_qs_source_year_end
+entity_type: node
+type: integer
+settings:
+  unsigned: false
+  size: normal
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

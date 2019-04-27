@@ -1,0 +1,8 @@
+uuid: 30361c0c-3be5-4a87-a277-770312d052eb
+langcode: et
+status: true
+dependencies: {  }
+id: menu-tsitaatcom-user-admin-menu
+label: 'Tsitaatcom User Admin Menu'
+description: ''
+locked: false

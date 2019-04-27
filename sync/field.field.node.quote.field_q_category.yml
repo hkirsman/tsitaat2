@@ -1,0 +1,23 @@
+uuid: 4502d5c7-cc21-4ded-8bde-819005a5ef94
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_q_category
+    - node.type.quote
+id: node.quote.field_q_category
+field_name: field_q_category
+entity_type: node
+bundle: quote
+label: Kategooria
+description: 'Vali sobilik kategooria lisatavale tsitaadile. Kui ei leia õiget kategooriat, siis jäta “Kategoriata”.'
+required: true
+translatable: false
+default_value:
+  -
+    tid: '42'
+default_value_callback: ''
+settings:
+  handler: 'default:taxonomy_term'
+  handler_settings: {  }
+field_type: entity_reference

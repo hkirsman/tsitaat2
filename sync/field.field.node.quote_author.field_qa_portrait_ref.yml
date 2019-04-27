@@ -1,0 +1,30 @@
+uuid: aa70fd55-09bc-4ae9-b4b2-0bdfb7ec1c58
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_qa_portrait_ref
+    - node.type.quote_author
+    - node.type.quote_author_portrait
+id: node.quote_author.field_qa_portrait_ref
+field_name: field_qa_portrait_ref
+entity_type: node
+bundle: quote_author
+label: Pilt
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:node'
+  handler_settings:
+    target_bundles:
+      quote_author_portrait: quote_author_portrait
+    sort:
+      field: title
+      direction: ASC
+    behaviors:
+      views-select-list:
+        status: 0
+field_type: entity_reference

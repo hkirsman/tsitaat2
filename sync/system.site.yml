@@ -1,14 +1,14 @@
-uuid: 7e758428-b29d-4871-97a9-eec80dc13b3c
+uuid: 7b88c61c-8e4f-461e-9f66-21d8033b5cac
 name: Tsitaat.com
-mail: hkirsman@gmail.com
+mail: hannes.kirsman@eesti.ee
 slogan: ''
 page:
-  403: ''
-  404: ''
-  front: /node
+  403: /
+  404: /node/18595
+  front: /empty
 admin_compact_mode: false
 weight_select_max: 100
 langcode: en
-default_langcode: en
+default_langcode: et
 _core:
   default_config_hash: yXadRE77Va-G6dxhd2kPYapAvbnSvTF6hO4oXiOEynI

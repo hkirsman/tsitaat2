@@ -1,9 +1,14 @@
-uuid: 2a834d72-ba09-465a-96eb-e77f7bd76507
+uuid: 5f27cf16-5b80-4ae7-9033-103fbf717ed2
 langcode: en
 status: true
 dependencies:
   config:
+    - field.field.user.user.user_from
+    - field.field.user.user.user_im
+    - field.field.user.user.user_interests
+    - field.field.user.user.user_occ
     - field.field.user.user.user_picture
+    - field.field.user.user.user_website
     - image.style.thumbnail
   module:
     - image
@@ -27,13 +32,53 @@ content:
   timezone:
     weight: 6
     region: content
+  user_from:
+    weight: 10
+    type: string_textfield
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    region: content
+  user_im:
+    weight: 10
+    type: string_textfield
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    region: content
+  user_interests:
+    weight: 10
+    type: string_textfield
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    region: content
+  user_occ:
+    weight: 10
+    type: string_textfield
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    region: content
   user_picture:
-    type: image_image
     settings:
       progress_indicator: throbber
       preview_image_style: thumbnail
+    type: image_image
+    weight: 7
     third_party_settings: {  }
-    weight: -1
+    region: content
+  user_website:
+    weight: 10
+    type: string_textfield
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
     region: content
 hidden:
   langcode: true

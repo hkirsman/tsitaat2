@@ -1,0 +1,23 @@
+uuid: f037af3f-4e1c-4318-bfa2-86e448eb1751
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_qa_death_year
+    - node.type.quote_author
+id: node.quote_author.field_qa_death_year
+field_name: field_qa_death_year
+entity_type: node
+bundle: quote_author
+label: Surmaasta
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  max: null
+  min: null
+  prefix: ''
+  suffix: ''
+field_type: integer

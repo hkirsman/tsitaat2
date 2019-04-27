@@ -1,0 +1,12 @@
+uuid: e395e2c0-17f2-46e8-9277-a25b16507ab0
+langcode: en
+status: true
+dependencies: {  }
+id: editor
+label: editor
+weight: 2
+is_admin: null
+permissions:
+  - 'delete own quote content'
+  - 'edit any quote content'
+  - 'edit any quote_author content'

@@ -1,0 +1,23 @@
+uuid: 8666b804-d23b-4adf-b111-396108aecd9b
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_qs_source_year_end_circa
+    - node.type.quote_source
+id: node.quote_source.field_qs_source_year_end_circa
+field_name: field_qs_source_year_end_circa
+entity_type: node
+bundle: quote_source
+label: 'Year end circa'
+description: ''
+required: false
+translatable: false
+default_value:
+  -
+    value: 0
+default_value_callback: ''
+settings:
+  on_label: 'On'
+  off_label: 'Off'
+field_type: boolean

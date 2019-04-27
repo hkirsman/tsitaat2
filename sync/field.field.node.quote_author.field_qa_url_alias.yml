@@ -1,0 +1,19 @@
+uuid: 8a4f4aed-0f05-4c8a-9df0-1efca8ead1d3
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_qa_url_alias
+    - node.type.quote_author
+id: node.quote_author.field_qa_url_alias
+field_name: field_qa_url_alias
+entity_type: node
+bundle: quote_author
+label: 'Lingi alias'
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

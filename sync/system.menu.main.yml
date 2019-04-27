@@ -1,10 +1,10 @@
-uuid: 1c167bc1-8529-4842-956b-bf9c4fcdf3bd
+uuid: 7c360265-c4fb-45b1-8d0a-abeff0d91d76
 langcode: en
 status: true
 dependencies: {  }
 _core:
   default_config_hash: Q2Ra3jfoIVk0f3SjxJX61byRQFVBAbpzYDQOiY-kno8
 id: main
-label: 'Main navigation'
-description: 'Site section links'
+label: Peamenüü
+description: '<em>Peamenüüd</em> kasutatakse paljudel lehtedel peamiste sektsioonide kuvamiseks, see asetseb tihti ülemisel navigeerimisribal.'
 locked: true

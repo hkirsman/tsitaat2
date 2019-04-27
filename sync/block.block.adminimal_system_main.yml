@@ -1,22 +1,22 @@
-uuid: ddb7b262-d952-42f2-bf4c-41ac58c19fd5
+uuid: 9780cbb0-1c33-479d-9bb9-d7b8ec4372ea
 langcode: en
 status: true
 dependencies:
   module:
     - system
   theme:
-    - bartik
+    - seven
 _core:
-  default_config_hash: 9EoWV2Lot6FVSr50t4hoKgiz1LIXYWNG-IIPYsWxBqo
-id: bartik_content
-theme: bartik
+  default_config_hash: YRY68JWkaUiGeZlWMv1nzeIgDm0ZZwXYgpqUpLFzwAY
+id: adminimal_system_main
+theme: seven
 region: content
 weight: 0
 provider: null
 plugin: system_main_block
 settings:
   id: system_main_block
-  label: 'Main page content'
+  label: ''
   provider: system
   label_display: '0'
 visibility: {  }

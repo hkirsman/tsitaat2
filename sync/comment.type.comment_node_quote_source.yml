@@ -1,0 +1,8 @@
+uuid: 9ddea66b-a4af-45de-a0a0-17aca57c5f54
+langcode: en
+status: true
+dependencies: {  }
+id: comment_node_quote_source
+label: 'Allikas comment'
+target_entity_type_id: node
+description: null

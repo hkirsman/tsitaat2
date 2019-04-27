@@ -1,0 +1,19 @@
+uuid: e1532294-b6e5-4eb8-9221-19ee5701ed9a
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_qs_isbn
+    - node.type.quote_source
+id: node.quote_source.field_qs_isbn
+field_name: field_qs_isbn
+entity_type: node
+bundle: quote_source
+label: ISBN
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

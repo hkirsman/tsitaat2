@@ -1,0 +1,20 @@
+uuid: 8d06a981-363f-4adb-ae2c-954c4ed87c14
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.user.user_interests
+  module:
+    - user
+id: user.user.user_interests
+field_name: user_interests
+entity_type: user
+bundle: user
+label: Interests
+description: 'What is the user interested in'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

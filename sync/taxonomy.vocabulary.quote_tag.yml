@@ -1,0 +1,9 @@
+uuid: c9b85339-edaa-4ba7-8449-a095669fd786
+langcode: en
+status: true
+dependencies: {  }
+name: 'Quote tag'
+vid: quote_tag
+description: ''
+hierarchy: 0
+weight: 0

@@ -1,0 +1,194 @@
+uuid: b6807b01-e1fa-4347-9ba9-7f3d4660a9cc
+langcode: et
+status: true
+dependencies:
+  config:
+    - field.field.node.quote_author.comment_node_quote_author
+    - field.field.node.quote_author.field_qa_born_year
+    - field.field.node.quote_author.field_qa_born_year_circa
+    - field.field.node.quote_author.field_qa_death_year
+    - field.field.node.quote_author.field_qa_death_year_circa
+    - field.field.node.quote_author.field_qa_firstname
+    - field.field.node.quote_author.field_qa_is_tsitaatcom_user
+    - field.field.node.quote_author.field_qa_lastname
+    - field.field.node.quote_author.field_qa_midname
+    - field.field.node.quote_author.field_qa_name_freeform
+    - field.field.node.quote_author.field_qa_portrait_ref
+    - field.field.node.quote_author.field_qa_profession
+    - field.field.node.quote_author.field_qa_url_alias
+    - field.field.node.quote_author.field_qa_wiki_url
+    - node.type.quote_author
+  module:
+    - comment
+    - path
+id: node.quote_author.default
+targetEntityType: node
+bundle: quote_author
+mode: default
+content:
+  comment_node_quote_author:
+    type: comment_default
+    weight: 20
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+  created:
+    type: datetime_timestamp
+    weight: 10
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+  field_qa_born_year:
+    weight: 4
+    type: number
+    settings:
+      placeholder: ''
+    third_party_settings: {  }
+    region: content
+  field_qa_born_year_circa:
+    weight: 5
+    type: boolean_checkbox
+    settings:
+      display_label: true
+    third_party_settings: {  }
+    region: content
+  field_qa_death_year:
+    weight: 6
+    type: number
+    settings:
+      placeholder: ''
+    third_party_settings: {  }
+    region: content
+  field_qa_death_year_circa:
+    weight: 7
+    type: boolean_checkbox
+    settings:
+      display_label: true
+    third_party_settings: {  }
+    region: content
+  field_qa_firstname:
+    weight: 1
+    type: string_textfield
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    region: content
+  field_qa_is_tsitaatcom_user:
+    weight: 9
+    type: boolean_checkbox
+    settings:
+      display_label: true
+    third_party_settings: {  }
+    region: content
+  field_qa_lastname:
+    weight: 3
+    type: string_textfield
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    region: content
+  field_qa_midname:
+    weight: 2
+    type: string_textfield
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    region: content
+  field_qa_name_freeform:
+    weight: 0
+    type: string_textfield
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    region: content
+  field_qa_portrait_ref:
+    weight: 12
+    type: options_select
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+  field_qa_profession:
+    weight: 8
+    type: string_textfield
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    region: content
+  field_qa_url_alias:
+    weight: 11
+    type: string_textfield
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    region: content
+  field_qa_wiki_url:
+    weight: 10
+    type: string_textfield
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    region: content
+  langcode:
+    type: language_select
+    weight: 2
+    region: content
+    settings:
+      include_locked: true
+    third_party_settings: {  }
+  path:
+    type: path
+    weight: 30
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+  promote:
+    type: boolean_checkbox
+    settings:
+      display_label: true
+    weight: 15
+    region: content
+    third_party_settings: {  }
+  status:
+    type: boolean_checkbox
+    settings:
+      display_label: true
+    weight: 120
+    region: content
+    third_party_settings: {  }
+  sticky:
+    type: boolean_checkbox
+    settings:
+      display_label: true
+    weight: 16
+    region: content
+    third_party_settings: {  }
+  title:
+    type: string_textfield
+    weight: -5
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  uid:
+    type: entity_reference_autocomplete
+    weight: 5
+    settings:
+      match_operator: CONTAINS
+      size: 60
+      placeholder: ''
+    region: content
+    third_party_settings: {  }
+  url_redirects:
+    weight: 50
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+hidden: {  }

@@ -1,0 +1,23 @@
+uuid: f306af59-7327-482b-92cd-3ab9106d9564
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_qs_source_month_start
+    - node.type.quote_source
+id: node.quote_source.field_qs_source_month_start
+field_name: field_qs_source_month_start
+entity_type: node
+bundle: quote_source
+label: 'Month start'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  max: 12
+  min: 1
+  prefix: ''
+  suffix: ''
+field_type: integer

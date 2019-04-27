@@ -1,0 +1,18 @@
+uuid: 9a6f0434-09d9-440d-905f-d8ecb4bd72dc
+langcode: et
+status: true
+dependencies:
+  config:
+    - node.type.quote_source
+  module:
+    - content_translation
+third_party_settings:
+  content_translation:
+    enabled: true
+    bundle_settings:
+      untranslatable_fields_hide: ''
+id: node.quote_source
+target_entity_type_id: node
+target_bundle: quote_source
+default_langcode: et
+language_alterable: false

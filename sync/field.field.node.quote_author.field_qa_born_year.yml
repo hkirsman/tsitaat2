@@ -1,0 +1,23 @@
+uuid: 1786b4f2-2089-44e9-adb4-84372767d8a2
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_qa_born_year
+    - node.type.quote_author
+id: node.quote_author.field_qa_born_year
+field_name: field_qa_born_year
+entity_type: node
+bundle: quote_author
+label: Sünniaasta
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  max: null
+  min: null
+  prefix: ''
+  suffix: ''
+field_type: integer

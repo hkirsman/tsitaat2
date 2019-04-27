@@ -1,0 +1,23 @@
+uuid: c7190d95-07eb-4198-b01e-7ef9c4523e63
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_qs_source_year_end
+    - node.type.quote_source
+id: node.quote_source.field_qs_source_year_end
+field_name: field_qs_source_year_end
+entity_type: node
+bundle: quote_source
+label: 'Year end'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  max: null
+  min: null
+  prefix: ''
+  suffix: ''
+field_type: integer

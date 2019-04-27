@@ -1,4 +1,4 @@
-uuid: 1f471a10-4f28-4bfe-aaec-986e126b4e49
+uuid: 89bfb13d-3406-47df-9dce-b15499cdddbc
 langcode: en
 status: true
 dependencies:
@@ -16,7 +16,7 @@ bundle: article
 label: Body
 description: ''
 required: false
-translatable: true
+translatable: false
 default_value: {  }
 default_value_callback: ''
 settings:

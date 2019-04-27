@@ -1,0 +1,20 @@
+uuid: 827991db-0364-466c-812e-467e2a37dc0b
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.user.user_website
+  module:
+    - user
+id: user.user.user_website
+field_name: user_website
+entity_type: user
+bundle: user
+label: Website
+description: 'The user website URL'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

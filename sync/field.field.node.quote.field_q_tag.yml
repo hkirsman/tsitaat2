@@ -1,0 +1,21 @@
+uuid: 89b73a58-0272-4641-ab8b-39b38831b0f8
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_q_tag
+    - node.type.quote
+id: node.quote.field_q_tag
+field_name: field_q_tag
+entity_type: node
+bundle: quote
+label: Võtmesõna(d)
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:taxonomy_term'
+  handler_settings: {  }
+field_type: entity_reference

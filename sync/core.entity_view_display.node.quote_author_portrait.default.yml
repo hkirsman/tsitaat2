@@ -1,0 +1,31 @@
+uuid: 263cf7b0-f626-4c66-95b0-a27e84a60de4
+langcode: et
+status: true
+dependencies:
+  config:
+    - field.field.node.quote_author_portrait.field_qap_portrait
+    - node.type.quote_author_portrait
+  module:
+    - image
+    - user
+id: node.quote_author_portrait.default
+targetEntityType: node
+bundle: quote_author_portrait
+mode: default
+content:
+  field_qap_portrait:
+    label: above
+    weight: 1
+    type: image
+    settings:
+      image_style: ''
+      image_link: ''
+    third_party_settings: {  }
+    region: content
+  links:
+    weight: 100
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+hidden:
+  langcode: true

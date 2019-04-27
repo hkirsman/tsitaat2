@@ -1,0 +1,20 @@
+uuid: 0b1c582b-6db9-4c4d-bc40-eab4d369f873
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.user.user_im
+  module:
+    - user
+id: user.user.user_im
+field_name: user_im
+entity_type: user
+bundle: user
+label: 'IM Contacts'
+description: 'Instant Message Contact Details'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

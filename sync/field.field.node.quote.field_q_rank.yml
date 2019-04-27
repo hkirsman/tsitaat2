@@ -1,0 +1,25 @@
+uuid: 72e30e9c-6797-4756-83fc-a6c3aa05693f
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_q_rank
+    - node.type.quote
+id: node.quote.field_q_rank
+field_name: field_q_rank
+entity_type: node
+bundle: quote
+label: Rank
+description: ''
+required: true
+translatable: false
+default_value:
+  -
+    value: 0
+default_value_callback: ''
+settings:
+  max: null
+  min: null
+  prefix: ''
+  suffix: ''
+field_type: integer

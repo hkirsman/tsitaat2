@@ -1,0 +1,9 @@
+uuid: b9a1e251-b637-4277-8536-11cf5da2cdab
+langcode: en
+status: true
+dependencies: {  }
+name: 'Quote category'
+vid: quote_category
+description: ''
+hierarchy: 0
+weight: 0

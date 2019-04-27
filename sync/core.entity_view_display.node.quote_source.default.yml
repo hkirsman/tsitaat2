@@ -1,0 +1,143 @@
+uuid: f7ccc03a-e02f-41a2-abbe-fd40f6b9293d
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_display.comment.comment_node_quote_source.default
+    - field.field.node.quote_source.comment_node_quote_source
+    - field.field.node.quote_source.field_qs_amazon_product_link
+    - field.field.node.quote_source.field_qs_id
+    - field.field.node.quote_source.field_qs_isbn
+    - field.field.node.quote_source.field_qs_name
+    - field.field.node.quote_source.field_qs_source_day_start
+    - field.field.node.quote_source.field_qs_source_month_start
+    - field.field.node.quote_source.field_qs_source_year_end
+    - field.field.node.quote_source.field_qs_source_year_end_circa
+    - field.field.node.quote_source.field_qs_source_year_start
+    - field.field.node.quote_source.field_qs_source_year_start_circa
+    - field.field.node.quote_source.field_qs_url
+    - field.field.node.quote_source.field_qs_url_alias
+    - node.type.quote_source
+  module:
+    - comment
+    - options
+    - user
+id: node.quote_source.default
+targetEntityType: node
+bundle: quote_source
+mode: default
+content:
+  comment_node_quote_source:
+    label: hidden
+    type: comment_default
+    weight: 20
+    settings:
+      view_mode: default
+      pager_id: 0
+    third_party_settings: {  }
+    region: content
+  field_qs_amazon_product_link:
+    label: above
+    weight: 39
+    type: string
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    region: content
+  field_qs_id:
+    label: above
+    weight: 1
+    type: number_integer
+    settings:
+      thousand_separator: ''
+      prefix_suffix: true
+    third_party_settings: {  }
+    region: content
+  field_qs_isbn:
+    label: above
+    weight: 38
+    type: string
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    region: content
+  field_qs_name:
+    label: above
+    weight: 36
+    type: string
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    region: content
+  field_qs_source_day_start:
+    label: above
+    weight: 26
+    type: number_integer
+    settings:
+      thousand_separator: ''
+      prefix_suffix: true
+    third_party_settings: {  }
+    region: content
+  field_qs_source_month_start:
+    label: above
+    weight: 25
+    type: number_integer
+    settings:
+      thousand_separator: ''
+      prefix_suffix: true
+    third_party_settings: {  }
+    region: content
+  field_qs_source_year_end:
+    label: above
+    weight: 27
+    type: number_integer
+    settings:
+      thousand_separator: ''
+      prefix_suffix: true
+    third_party_settings: {  }
+    region: content
+  field_qs_source_year_end_circa:
+    label: above
+    weight: 28
+    type: list_default
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+  field_qs_source_year_start:
+    label: above
+    weight: 23
+    type: string
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    region: content
+  field_qs_source_year_start_circa:
+    label: above
+    weight: 24
+    type: list_default
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+  field_qs_url:
+    label: above
+    weight: 29
+    type: string
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    region: content
+  field_qs_url_alias:
+    label: above
+    weight: 40
+    type: string
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    region: content
+  links:
+    weight: 100
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+hidden:
+  langcode: true

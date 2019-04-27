@@ -1,0 +1,149 @@
+uuid: f58f71e8-df92-467c-bad4-15685b4f721d
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_display.comment.comment_node_quote_author.default
+    - field.field.node.quote_author.comment_node_quote_author
+    - field.field.node.quote_author.field_qa_born_year
+    - field.field.node.quote_author.field_qa_born_year_circa
+    - field.field.node.quote_author.field_qa_death_year
+    - field.field.node.quote_author.field_qa_death_year_circa
+    - field.field.node.quote_author.field_qa_firstname
+    - field.field.node.quote_author.field_qa_is_tsitaatcom_user
+    - field.field.node.quote_author.field_qa_lastname
+    - field.field.node.quote_author.field_qa_midname
+    - field.field.node.quote_author.field_qa_name_freeform
+    - field.field.node.quote_author.field_qa_portrait_ref
+    - field.field.node.quote_author.field_qa_profession
+    - field.field.node.quote_author.field_qa_url_alias
+    - field.field.node.quote_author.field_qa_wiki_url
+    - node.type.quote_author
+  module:
+    - comment
+    - options
+    - user
+id: node.quote_author.default
+targetEntityType: node
+bundle: quote_author
+mode: default
+content:
+  comment_node_quote_author:
+    label: hidden
+    type: comment_default
+    weight: 20
+    settings:
+      view_mode: default
+      pager_id: 0
+    third_party_settings: {  }
+    region: content
+  field_qa_born_year:
+    label: above
+    weight: 64
+    type: number_integer
+    settings:
+      thousand_separator: ''
+      prefix_suffix: true
+    third_party_settings: {  }
+    region: content
+  field_qa_born_year_circa:
+    label: above
+    weight: 69
+    type: list_default
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+  field_qa_death_year:
+    label: above
+    weight: 70
+    type: number_integer
+    settings:
+      thousand_separator: ''
+      prefix_suffix: true
+    third_party_settings: {  }
+    region: content
+  field_qa_death_year_circa:
+    label: above
+    weight: 71
+    type: list_default
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+  field_qa_firstname:
+    label: above
+    weight: 66
+    type: string
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    region: content
+  field_qa_is_tsitaatcom_user:
+    label: above
+    weight: 73
+    type: list_default
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+  field_qa_lastname:
+    label: above
+    weight: 68
+    type: string
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    region: content
+  field_qa_midname:
+    label: above
+    weight: 67
+    type: string
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    region: content
+  field_qa_name_freeform:
+    label: above
+    weight: 65
+    type: string
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    region: content
+  field_qa_portrait_ref:
+    label: above
+    weight: 77
+    type: entity_reference_label
+    settings:
+      link: true
+    third_party_settings: {  }
+    region: content
+  field_qa_profession:
+    label: above
+    weight: 74
+    type: string
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    region: content
+  field_qa_url_alias:
+    label: above
+    weight: 76
+    type: string
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    region: content
+  field_qa_wiki_url:
+    label: above
+    weight: 75
+    type: string
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    region: content
+  links:
+    weight: 100
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+hidden:
+  langcode: true

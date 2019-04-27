@@ -1,0 +1,122 @@
+uuid: 0175eb45-248d-4704-9fa2-24e7626ce5b1
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_display.comment.comment_node_quote.default
+    - field.field.node.quote.comment_node_quote
+    - field.field.node.quote.field_q_author
+    - field.field.node.quote.field_q_category
+    - field.field.node.quote.field_q_language_auto
+    - field.field.node.quote.field_q_quote
+    - field.field.node.quote.field_q_rank
+    - field.field.node.quote.field_q_source
+    - field.field.node.quote.field_q_source_title_xtra_prefix
+    - field.field.node.quote.field_q_source_title_xtra_suffix
+    - field.field.node.quote.field_q_tag
+    - field.field.node.quote.field_q_tag_auto
+    - node.type.quote
+  module:
+    - comment
+    - user
+id: node.quote.default
+targetEntityType: node
+bundle: quote
+mode: default
+content:
+  comment_node_quote:
+    label: hidden
+    type: comment_default
+    weight: 20
+    settings:
+      view_mode: default
+      pager_id: 0
+    third_party_settings: {  }
+    region: content
+  field_q_author:
+    label: above
+    weight: 58
+    type: entity_reference_label
+    settings:
+      link: true
+    third_party_settings: {  }
+    region: content
+  field_q_category:
+    label: above
+    weight: 55
+    type: entity_reference_label
+    settings:
+      link: true
+    third_party_settings: {  }
+    region: content
+  field_q_language_auto:
+    label: above
+    weight: 62
+    type: string
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    region: content
+  field_q_quote:
+    label: above
+    weight: 54
+    type: basic_string
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+  field_q_rank:
+    label: above
+    weight: 53
+    type: number_integer
+    settings:
+      thousand_separator: ''
+      prefix_suffix: true
+    third_party_settings: {  }
+    region: content
+  field_q_source:
+    label: above
+    weight: 50
+    type: entity_reference_label
+    settings:
+      link: true
+    third_party_settings: {  }
+    region: content
+  field_q_source_title_xtra_prefix:
+    label: above
+    weight: 52
+    type: string
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    region: content
+  field_q_source_title_xtra_suffix:
+    label: above
+    weight: 51
+    type: string
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    region: content
+  field_q_tag:
+    label: above
+    weight: 56
+    type: entity_reference_label
+    settings:
+      link: true
+    third_party_settings: {  }
+    region: content
+  field_q_tag_auto:
+    label: above
+    weight: 57
+    type: string
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    region: content
+  links:
+    weight: 100
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+hidden:
+  langcode: true

@@ -1,0 +1,9 @@
+uuid: df404bab-c5d2-4252-af82-f9507cf287fd
+langcode: en
+status: true
+dependencies: {  }
+id: it
+label: Italian
+direction: ltr
+weight: 0
+locked: false

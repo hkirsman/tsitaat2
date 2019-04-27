@@ -1,0 +1,21 @@
+uuid: cf926d44-d963-4352-a099-f5ecdb3b324a
+langcode: und
+status: true
+dependencies:
+  module:
+    - user
+id: user.user_interests
+field_name: user_interests
+entity_type: user
+type: string
+settings:
+  max_length: 255
+  is_ascii: false
+  case_sensitive: false
+module: core
+locked: false
+cardinality: -1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

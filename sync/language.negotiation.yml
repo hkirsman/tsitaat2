@@ -3,9 +3,21 @@ session:
 url:
   source: path_prefix
   prefixes:
-    en: ''
+    de: de
+    en: en
+    et: et
+    fi: fi
+    fr: fr
+    it: it
+    la: la
   domains:
+    de: ''
     en: ''
+    et: ''
+    fi: ''
+    fr: ''
+    it: ''
+    la: ''
 selected_langcode: site_default
 _core:
   default_config_hash: uEePITI9tV6WqzmsTb7MfPCi5yPWXSxAN1xeLcYFQbM

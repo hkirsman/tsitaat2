@@ -1,0 +1,19 @@
+uuid: 53ca1e0e-6963-4376-9526-ce1d45ce66b5
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_qs_url
+    - node.type.quote_source
+id: node.quote_source.field_qs_url
+field_name: field_qs_url
+entity_type: node
+bundle: quote_source
+label: 'Source URL'
+description: 'Lisa sisu viide kui see on olemas.'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

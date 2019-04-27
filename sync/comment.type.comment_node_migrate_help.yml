@@ -1,0 +1,8 @@
+uuid: 341e4fa8-841e-4b67-a02e-2ed8692c3483
+langcode: en
+status: true
+dependencies: {  }
+id: comment_node_migrate_help
+label: 'Migrate help comment'
+target_entity_type_id: node
+description: null

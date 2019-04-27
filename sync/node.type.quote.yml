@@ -1,0 +1,18 @@
+uuid: 71244b74-0a6c-40cc-a67d-09c78f34ee1b
+langcode: en
+status: true
+dependencies:
+  module:
+    - menu_ui
+third_party_settings:
+  menu_ui:
+    available_menus:
+      - main-menu
+    parent: 'main-menu:0:'
+name: Tsitaat
+type: quote
+description: ''
+help: 'Mis juhis see on?'
+new_revision: true
+preview_mode: 1
+display_submitted: false

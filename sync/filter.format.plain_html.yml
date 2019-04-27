@@ -1,0 +1,14 @@
+uuid: af5303c3-53f6-41e6-acc6-209258ebf34a
+langcode: en
+status: true
+dependencies: {  }
+name: 'Plain html'
+format: plain_html
+weight: -10
+filters:
+  filter_autop:
+    id: filter_autop
+    provider: filter
+    status: true
+    weight: 0
+    settings: {  }

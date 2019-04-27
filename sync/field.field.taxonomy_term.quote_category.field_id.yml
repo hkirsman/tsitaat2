@@ -1,0 +1,23 @@
+uuid: 755c8b42-7217-4bc8-983e-feb0f9e873e2
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.taxonomy_term.field_id
+    - taxonomy.vocabulary.quote_category
+id: taxonomy_term.quote_category.field_id
+field_name: field_id
+entity_type: taxonomy_term
+bundle: quote_category
+label: Id
+description: 'Old field.'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  max: null
+  min: null
+  prefix: ''
+  suffix: ''
+field_type: integer

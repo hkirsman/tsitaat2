@@ -1,0 +1,18 @@
+uuid: 9aff8305-18fa-4215-aeb7-24672b4ddf32
+langcode: et
+status: true
+dependencies:
+  config:
+    - node.type.migrate_help
+id: node.migrate_help.title
+field_name: title
+entity_type: node
+bundle: migrate_help
+label: Pealkiri
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

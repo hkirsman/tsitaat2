@@ -1,0 +1,8 @@
+uuid: f2fa6e20-5a07-4aa8-beb6-47171c4c9384
+langcode: en
+status: true
+dependencies: {  }
+id: comment_node_quote
+label: 'Tsitaat comment'
+target_entity_type_id: node
+description: null
